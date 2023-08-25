@@ -1,0 +1,14 @@
+---
+import Layout from '../layouts/Slide.astro';
+import { Code } from 'astro/components';
+---
+
+<Layout title="Four">
+	<main>
+		<h1>Slide 2</h1>
+    <p>How about some morphing snippets?</p>
+<Code code={`.foo { 
+  color: red; 
+}`} lang="css" theme="dracula" />
+	</main>
+</Layout>
